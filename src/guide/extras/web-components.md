@@ -1,12 +1,13 @@
-# Vue and Web Components {#vue-and-web-components}
+# Vue و کامپوننت‌های وب {#vue-and-web-components}
 
-[Web Components](https://developer.mozilla.org/en-US/docs/Web/Web_Components) is an umbrella term for a set of web native APIs that allows developers to create reusable custom elements.
+[کامپوننت‌های وب](https://developer.mozilla.org/en-US/docs/Web/Web_Components) اصطلاحی عام برای مجموعه‌ای از APIهای مختص وب است که به توسعه‌دهندگان درایجاد عناصر سفارشی کمک می‌کند.
 
-We consider Vue and Web Components to be primarily complementary technologies. Vue has excellent support for both consuming and creating custom elements. Whether you are integrating custom elements into an existing Vue application, or using Vue to build and distribute custom elements, you are in good company.
+ما Vue و کامپوننت‌های وب را به عنوان تکنولوژی‌های مکمل در نظر می‌گیریم. Vue پشتیبانی خوبی از ایجاد و استفاده از عناصر سفارشی می‌کند. Vue همراهی مناسب است هنگامی که از سفارشی در اپلیکیشن کارشده با Vue استفاده کنید و یا از Vue برای ساخت و توزیع عناصر سفارشی استفاده کنید.
 
-## Using Custom Elements in Vue {#using-custom-elements-in-vue}
 
-Vue [scores a perfect 100% in the Custom Elements Everywhere tests](https://custom-elements-everywhere.com/libraries/vue/results/results.html). Consuming custom elements inside a Vue application largely works the same as using native HTML elements, with a few things to keep in mind:
+## استفاده از عناصر سفارشی {#using-custom-elements-in-vue}
+
+Vue [امتیاز کامل ۱۰۰٪ را در تست‌های سایت Custom Elements Everywhere گرفته](https://custom-elements-everywhere.com/libraries/vue/results/results.html). استفاده از عناصر سفارشی در اپلیکیشن Vue عموما به همان شکل استفاده از عناصر HTML است، با در نظر گرفتن چند نکته:
 
 ### Skipping Component Resolution {#skipping-component-resolution}
 
